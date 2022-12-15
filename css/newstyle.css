@@ -1,0 +1,49 @@
+.portfolio-section{
+    padding: 20px;
+    width: 100%;
+    margin: 40px auto;
+}
+.portfolio-section span{
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 45px;
+}
+.portfolio-section a{
+    /* text-decoration: none; */
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s linear;
+}
+.portfolio-section a:hover{
+    color: aqua !important;
+}
+.portfolio-section .thisisit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+.portfolio-section a.active{
+    color: aqua;
+}
+
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product .itemBox{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+.product .itemBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
