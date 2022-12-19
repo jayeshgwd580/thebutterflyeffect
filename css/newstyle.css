@@ -1,7 +1,6 @@
 .portfolio-section{
     padding: 20px;
     width: 100%;
-    margin: 40px auto;
 }
 .portfolio-section span{
     font-size: 54px;
@@ -32,6 +31,7 @@
 .product{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .product .itemBox{
     position: relative;
