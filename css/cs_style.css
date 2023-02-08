@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:ital@1&family=Sofia+Sans+Extra+Condensed:wght@300&family=Work+Sans:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+.header-sec{
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: #00a991;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.bor{
+    border: 1px solid red;
+}
+.header-sec h2{
+    font-size: 70px;
+    font-weight: 300;
+}
+.header-sec h4{
+    font-weight: 500;
+    font-size: 18px;
+}
+.main-section{
+    min-height: 100vh;
+    background-color: #1e1e20;
+    padding: 10px 150px;
+    padding-bottom: 150px;
+}
+.first-sec{
+    display: flex;
+    padding-top: 100px;
+}
+.left-side{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-weight: 100;
+    gap: 20px;
+    padding-right: 20px;
+}
+.left-side h4{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.left-side h2{
+    font-weight: 500;
+    font-size: 42px;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+.left-side span{
+    width: 7%;
+    background-color: #00a991;
+    height: 4px;
+}
+.left-side p{
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.right-side{
+    flex: 1;
+    padding-left: 30px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-side .c-text{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-side .c-text h5{
+    color: #666666;
+    letter-spacing: 2px;
+}
+
+.right-side.c-text h4{
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+.second-sec{
+   min-height: 100vh;
+   padding-top: 170px;
+   position: relative;
+}
+.second-sec .pics-sec{
+    display: flex;
+    justify-content: center;
+}
+.second-sec .pics-sec img{
+    width: 200px;
+    height: 200px;
+}
+.second-sec .next-img{
+    position: absolute;
+}
+.third-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-bottom: 200px;
+}
+.third-sec h2{
+    height: 100px;
+    font-weight: 300;
+    font-size: 40px;
+    color: #ffffff!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgrow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.timg{
+    position: relative;
+}
+.timg img{
+    width: 300px;
+    height: 430px;
+    border-radius: 10px;
+}
+.secondimg{
+    top: 100px;
+}
+.thirdimg{
+    top: 50px;
+}
+.r1{
+    align-items: center;
+}
+.r1 img{
+    width: 310px;
+    height: 430px;
+}
+.fourth-sec{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.fourth-sec img{
+    width: 200px;
+    border-radius: 10px;
+}
+.l1{
+    padding-left: 100px;
+}
+.r11 img{
+    width: 200px !important;
+    height: 420px !important;
+}
+.footer{
+    height: 80vh;
+    background-color: #1c1c1c;
+    padding: 70px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.footer h3{
+    color: #a18a64;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+}
+.footer p{
+    font-weight: 600;
+    color: #545454;
+    font-family: 'Sofia Pro',sans-serif;
+    text-align: center;
+}
+.footer .btncntr{
+    display: flex;
+    justify-content: center;
+}
+.footer .btncntr button{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #3c3c3c;
+    color: #c0a062;
+    /* transition: 0.3s ease-in-out; */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    transition: color 300ms ease 0ms;
+}
+.footer button:hover{
+    background-color: #c0a062;
+    color: #000000;
+}
+.footer button:hover::after {
+    content: '→';
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 15px;
+  }
+.footer .partisian{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.footer .partisian img{
+    width: 35px;
+}
+.footer .partisian span{
+    flex: 1;
+    height: 1px;
+    background-color: #545454;
+}
+.footer .contacts{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .contacts .icon-box{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 0;
+    color: #545454;
+}
+.footer .contacts .icon-box i{
+    font-size: 20px;
+}
+.footer .contacts .icon-box span{
+    font-size: 17px;
+    font-family: 'Sofia Pro',sans-serif;
+}
